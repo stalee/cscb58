@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at decimalgen.v(21): always construct contains both blocking and non-blocking assignments File: /cmshome/leejen3/Desktop/cscb58 backup test/decimalgen.v Line: 21

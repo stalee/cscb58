@@ -1,0 +1,113 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCK_50'
+Slack : -5.665
+TNS   : -177.922
+
+Type  : Slow 1200mV 85C Model Setup 'reducer100:comb_6|reduced'
+Slack : -1.348
+TNS   : -8.228
+
+Type  : Slow 1200mV 85C Model Setup 'reducer1:comb_5|clktimer'
+Slack : -0.740
+TNS   : -4.174
+
+Type  : Slow 1200mV 85C Model Hold 'CLOCK_50'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'reducer1:comb_5|clktimer'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'reducer100:comb_6|reduced'
+Slack : 0.444
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -64.680
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'reducer100:comb_6|reduced'
+Slack : -1.285
+TNS   : -10.280
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'reducer1:comb_5|clktimer'
+Slack : -1.285
+TNS   : -8.995
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -5.072
+TNS   : -158.289
+
+Type  : Slow 1200mV 0C Model Setup 'reducer100:comb_6|reduced'
+Slack : -1.114
+TNS   : -6.613
+
+Type  : Slow 1200mV 0C Model Setup 'reducer1:comb_5|clktimer'
+Slack : -0.573
+TNS   : -3.070
+
+Type  : Slow 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.340
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'reducer1:comb_5|clktimer'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'reducer100:comb_6|reduced'
+Slack : 0.411
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -64.680
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'reducer100:comb_6|reduced'
+Slack : -1.285
+TNS   : -10.280
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'reducer1:comb_5|clktimer'
+Slack : -1.285
+TNS   : -8.995
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -2.209
+TNS   : -61.705
+
+Type  : Fast 1200mV 0C Model Setup 'reducer100:comb_6|reduced'
+Slack : -0.136
+TNS   : -0.353
+
+Type  : Fast 1200mV 0C Model Setup 'reducer1:comb_5|clktimer'
+Slack : 0.162
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.175
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'reducer1:comb_5|clktimer'
+Slack : 0.182
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'reducer100:comb_6|reduced'
+Slack : 0.197
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -65.867
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'reducer100:comb_6|reduced'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'reducer1:comb_5|clktimer'
+Slack : -1.000
+TNS   : -7.000
+
+------------------------------------------------------------

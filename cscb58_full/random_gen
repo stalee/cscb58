@@ -1,0 +1,15 @@
+from random import *
+
+i = 0
+r = 0
+while (i < 25):
+    randomnn = randint(0, 255)
+    print("else if (SW[7:0] == 8'd" + str(r) + " && state == 8'd" + str(i) + ") begin")
+    print("    h0 = 4'd" + str(randomnn % 10) + ";")
+    print("    h1 = 4'd" + str((randomnn % 100 - randomnn % 10)/10) + ";")
+    print("    h2 = 4'd" + str(randomnn/100) + ";")
+    print("    state = state + 1'b1;")
+    print("    score1 = score1 + 1'b1;")
+    print("end")
+    r = randomnn
+    i += 1

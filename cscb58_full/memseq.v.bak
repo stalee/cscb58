@@ -1,0 +1,53 @@
+
+
+module sequence1(LEDR, clk, LEDG, SW);
+        output [3:0] LEDR;
+	output LEDG[0];
+	input SW[17:16];
+	input SW[3:0];
+        input clk;
+	reg green_led;
+	
+	// The initial LED state
+        reg [3:0] binary_state = 4'b0010; // 3
+        
+	reg [15:0] storage;
+	reg[15:0] user_input;
+
+	// Go through the other states then allow input
+	always @(posedge clk)
+        begin
+
+                if (binary_state == 4'b0010) begin  // 4
+                        storage[15:12] <= binary_state; 
+			binary_state <= 4'b0001;
+		end
+
+		if (binary_state == 4'b0001) begin // 1
+			storage[11:8] <= binary_state;
+			binary_state <= 4'b1000;
+		end
+
+		if (binary_state == 4'b1000) begin // 2
+			storage[7:4] <= binary_state;
+			binary_state <= 4'b0100
+		end
+		
+		if (binary_state == 4'b0100) begin // start
+			storage[3:0] <= binary_state;
+			green_led <= 1;	
+		end		
+        end
+
+	always @(posedge SW[17])
+	begin
+		if (binary_state == 4'b0100 & green_led) begin
+			user_storage[3:0] = SW[3:0];
+			user_storage <= user_storage << 4;
+		end
+	end
+
+	assign LEDG[0] = green_led;
+	assign LEDR[3:0] = binary_state;
+endmodule
+
