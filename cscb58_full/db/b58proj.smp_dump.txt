@@ -1,0 +1,8 @@
+
+State Machine - |b58proj|sequence:comb_7|binary_state
+Name binary_state.0000 binary_state.1000 binary_state.0100 binary_state.0010 binary_state.0001 
+binary_state.0000 0 0 0 0 0 
+binary_state.0001 1 0 0 0 1 
+binary_state.0010 1 0 0 1 0 
+binary_state.0100 1 0 1 0 0 
+binary_state.1000 1 1 0 0 0 
